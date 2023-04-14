@@ -75,5 +75,22 @@
                 }
             }
         }
+        .search-sectn{
+            width: 100%;
+            display: flex; align-items: center;
+            gap: 2rem;
+            position: relative;
+            i{
+                position: absolute;
+                left: 2rem;
+            }
+            input{
+                width: 70%;
+            }
+            svg{
+                width: 10%;
+                align-self: center;
+            }
+        }
     }
 }

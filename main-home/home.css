@@ -91,4 +91,22 @@
 }
 .home-body .home-container .home-nav .rightHome i {
   font-size: 1.5rem;
+}
+.home-body .home-container .search-sectn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  position: relative;
+}
+.home-body .home-container .search-sectn i {
+  position: absolute;
+  left: 2rem;
+}
+.home-body .home-container .search-sectn input {
+  width: 70%;
+}
+.home-body .home-container .search-sectn svg {
+  width: 10%;
+  align-self: center;
 }/*# sourceMappingURL=home.css.map */
