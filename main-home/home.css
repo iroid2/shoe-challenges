@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: white;
+  box-sizing: border-box;
+}
+@media (max-width: 768px) {
+  * {
+    font-size: 0.9rem;
+  }
+}
+
+.home-body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.home-body .home-container {
+  background-color: rgb(22, 22, 22);
+  width: 50%;
+}
+@media (max-width: 768px) {
+  .home-body .home-container {
+    width: 100%;
+  }
+}
+.home-body .home-container .home-nav {
+  width: 100%;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.home-body .home-container .home-nav .leftHome {
+  width: 40%;
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media (max-width: 768px) {
+  .home-body .home-container .home-nav .leftHome {
+    font-size: 0.8rem;
+    width: 50%;
+  }
+}
+.home-body .home-container .home-nav .leftHome .profile-img {
+  width: 20%;
+}
+@media (max-width: 768px) {
+  .home-body .home-container .home-nav .leftHome .profile-img {
+    width: 40%;
+  }
+}
+@media (max-width: 308px) {
+  .home-body .home-container .home-nav .leftHome .profile-img {
+    width: 50%;
+  }
+}
+@media (max-width: 119px) {
+  .home-body .home-container .home-nav .leftHome .profile-img {
+    width: 240px;
+  }
+}
+.home-body .home-container .home-nav .leftHome .profile-img img {
+  width: 80%;
+  border-radius: 3rem;
+}
+@media (max-width: 768px) {
+  .home-body .home-container .home-nav .leftHome .profile-img img {
+    width: 60%;
+  }
+}
+@media (max-width: 258px) {
+  .home-body .home-container .home-nav .leftHome .profile-img img {
+    width: 100%;
+  }
+}
+.home-body .home-container .home-nav .leftHome .profile-details {
+  width: 80%;
+}
+@media (max-width: 768px) {
+  .home-body .home-container .home-nav .leftHome .profile-details {
+    width: 100%;
+  }
+}
+.home-body .home-container .home-nav .rightHome {
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+  display: flex;
+  gap: 0.4rem;
+}
+.home-body .home-container .home-nav .rightHome i {
+  font-size: 1.5rem;
+}/*# sourceMappingURL=home.css.map */
