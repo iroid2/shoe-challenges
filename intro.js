@@ -47,7 +47,7 @@ const swiperBrand = new Swiper('#brand-slider', {
     effect: "cube",
     direction: 'horizontal',
     slidesPerView:1,
-    loop: true,
+    // loop: true,
     grabCursor: true,
     cubeEffect: {
       shadow: true,
