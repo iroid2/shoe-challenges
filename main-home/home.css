@@ -198,4 +198,45 @@
   width: 100%;
   height: 100%;
   border-radius: 3rem;
+}
+.home-body .home-container .mostPopular {
+  width: 100%;
+}
+.home-body .home-container .mostPopular .top-most-popular {
+  width: 100%;
+  background-color: red;
+  display: flex;
+  padding: 0.2rem 1rem;
+  justify-content: space-between;
+}
+.home-body .home-container .mostPopular .bottm-most-popular {
+  width: 100%;
+  padding: 1rem 0.8rem;
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.home-body .home-container .mostPopular .bottm-most-popular .shoe-card {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: green;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+.home-body .home-container .mostPopular .bottm-most-popular .shoe-card img {
+  width: 80%;
+}
+.home-body .home-container .mostPopular .bottm-most-popular .price-addition {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.home-body .home-container .mostPopular .bottm-most-popular .price-addition .plus {
+  background-color: rgb(219, 119, 5);
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: 800;
+  border-top-left-radius: 1rem;
 }/*# sourceMappingURL=home.css.map */
