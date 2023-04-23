@@ -11,9 +11,43 @@ body {
 }
 body .search {
   width: 100%;
+  padding: 0.7rem;
+  display: flex;
+  align-items: center;
+}
+body .search .bx-search-alt-2 {
+  position: absolute;
+  left: 1rem;
+}
+body .search .bx-x {
+  position: absolute;
+  right: 2rem;
+}
+body .search i {
+  font-size: 2rem;
 }
 body .search input {
-  width: 75%;
-  padding: 0.5rem;
+  width: 98%;
+  padding: 0.8rem 3rem;
   border-radius: 1rem;
+  font-size: 2rem;
+}
+body .img-gallery {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+body .img-gallery .shoe-card {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(198, 207, 198);
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+body .img-gallery .shoe-card img {
+  width: 80%;
 }/*# sourceMappingURL=allShoes.css.map */
