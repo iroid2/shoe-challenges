@@ -19,10 +19,12 @@
 .home-body .home-container {
   background-color: rgb(22, 22, 22);
   width: 50%;
+  height: 100%;
 }
 @media (max-width: 768px) {
   .home-body .home-container {
     width: 100%;
+    height: auto;
   }
 }
 .home-body .home-container .home-nav {
@@ -176,6 +178,7 @@
 }
 .home-body .home-container .brands-slider {
   width: 100%;
+  margin-top: 2rem;
   display: flex;
   gap: 2rem;
   padding: 0.5rem;
@@ -208,13 +211,22 @@
   display: flex;
   padding: 0.2rem 1rem;
   justify-content: space-between;
+  margin-top: 2rem;
+}
+.home-body .home-container .mostPopular .top-most-popular h1 {
+  font-size: 2rem;
+}
+.home-body .home-container .mostPopular .top-most-popular h4 {
+  font-size: 1.5rem;
 }
 .home-body .home-container .mostPopular .bottm-most-popular {
   width: 100%;
   padding: 1rem 0.8rem;
   display: flex;
-  gap: 1.5rem;
   flex-wrap: wrap;
+  padding: 0.2rem 0.5rem;
+  gap: 2rem;
+  justify-content: center;
 }
 .home-body .home-container .mostPopular .bottm-most-popular .shoe-card {
   width: 40%;

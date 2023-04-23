@@ -44,7 +44,7 @@ const swiperBrand = new Swiper('#brand-slider', {
   });
 
   const swiperRotate = new Swiper('#rotate-slide', {
-    effect: "cube",
+    // effect: "cube",
     direction: 'horizontal',
     slidesPerView:1,
     // loop: true,
@@ -61,10 +61,10 @@ const swiperBrand = new Swiper('#brand-slider', {
     },
   
     // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
+    // navigation: {
+    //   nextEl: '.swiper-button-next',
+    //   prevEl: '.swiper-button-prev',
+    // },
   
     // And if we need scrollbar
     scrollbar: {
