@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: rebeccapurple;
+}
+body .search {
+  width: 100%;
+}
+body .search input {
+  width: 75%;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}/*# sourceMappingURL=allShoes.css.map */
